@@ -1,0 +1,55 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.oneapm.com/features/nodejs.html
+# OneAPM ships language-specific APM instrumentation agents (SDKs), not a REST
+# API client. Node.js (npm) and Ruby (RubyGems) agents are published to public
+# registries; Java/.NET/PHP/Go agents are distributed as downloads from the
+# Application Insight docs; the Python agent (blueware) is served from the
+# provider's private index at pypi.oneapm.com (not public PyPI).
+packages:
+  - language: javascript
+    registry: npm
+    name: oneapm
+    url: https://www.npmjs.com/package/oneapm
+    install: npm install oneapm
+    version: 3.1.0
+    official: true
+    kind: apm-agent
+    author: OneAPM Node.js agent team <nodejs@oneapm.com>
+    homepage: http://oneapm.com/features/nodejs.html
+  - language: ruby
+    registry: rubygems
+    name: oneapm_rpm
+    url: https://rubygems.org/gems/oneapm_rpm
+    install: gem install oneapm_rpm
+    official: true
+    kind: apm-agent
+    homepage: http://oneapm.com/features/ruby.html
+  - language: python
+    registry: private
+    name: blueware
+    url: http://pypi.oneapm.com/simple
+    install: pip install -i http://pypi.oneapm.com/simple --upgrade blueware
+    official: true
+    kind: apm-agent
+    homepage: https://docs-ai.oneapm.com/agent/python/Pythoninstall.html
+    note: Served from OneAPM's private package index, not public PyPI.
+  - language: java
+    registry: download
+    name: OneAPM Java Agent
+    url: https://docs-ai.oneapm.com/agent/java/installAgent.html
+    install: java -jar oneapm.jar install
+    official: true
+    kind: apm-agent
+  - language: php
+    registry: download
+    name: OneAPM PHP Agent
+    url: http://docs-ai.oneapm.com/agent/php/phpinstall.html
+    official: true
+    kind: apm-agent
+  - language: dotnet
+    registry: download
+    name: OneAPM .NET Agent
+    url: https://docs-ai.oneapm.com/
+    official: true
+    kind: apm-agent

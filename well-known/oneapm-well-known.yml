@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: probed /.well-known/* on OneAPM hosts 2026-07-20
+# No discovery documents are published on any OneAPM host. All probes returned
+# 404 (a valid, expected negative result for an APM agent vendor with no public
+# OAuth/OIDC surface). Recorded so re-runs do not re-probe blindly.
+hosts:
+- host: https://www.oneapm.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: https://docs-ai.oneapm.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
+- host: https://user.oneapm.com
+  documents:
+  - {path: /.well-known/security.txt, status: 404}
+  - {path: /.well-known/openid-configuration, status: 404}
+  - {path: /.well-known/oauth-authorization-server, status: 404}
+  - {path: /.well-known/api-catalog, status: 404}
+  - {path: /.well-known/ai-plugin.json, status: 404}
