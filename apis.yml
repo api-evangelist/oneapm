@@ -45,6 +45,17 @@ tags:
 - IT Operations
 - Log Analytics
 - Real User Monitoring
+- Software-as-a-Service
+tags_raw:
+- Company
+- Application Performance Management
+- APM
+- Observability
+- Monitoring
+- AIOps
+- IT Operations
+- Log Analytics
+- Real User Monitoring
 - SaaS
 apis: []
 maintainers:
