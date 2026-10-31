@@ -1,4 +1,4 @@
-# oneapm
+# OneAPM
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,86 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-oneapm is a company surfaced as a portfolio company of qiming and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+OneAPM (Beijing Blueware Technology / 北京蓝海讯通科技) is a Chinese application performance management and intelligent IT operations vendor founded in 2008. Its product suite instruments applications and infrastructure end to end: Application Insight (server-side, code-level tracing for Java, .NET, PHP, Python, Node.js, Ruby and Go), Browser Insight and Mobile Insight (real user monitoring), Infrastructure Insight and Network Insight, LogInsight for log analytics, Cloud Alert (OneAlert) for intelligent alerting, Cloud Test for performance testing, OneITSM for IT service management, and the Intelligence Insight (I²) AIOps platform. It serves over 60,000 enterprise users across telecommunications, finance, government, transportation, energy and e-commerce, delivered as SaaS or on-premise, and instruments applications via language-specific agents (SDKs) published to npm, RubyGems and a private index.
 
-Backed by: qiming — https://oneapm.com
+**Areas:** Company · Application Performance Management · APM · Observability · Monitoring · AIOps · IT Operations · Log Analytics · Real User Monitoring · Software-as-a-Service
+
+## OneAPM on APIs.io
+
+Everything profiled for OneAPM is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/oneapm/](https://apis.io/providers/oneapm/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Oneapm Domain Security](https://apis.io/security/oneapm/oneapm-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.oneapm.com)
+- [Documentation](https://docs-ai.oneapm.com/)
+- [Pricing](https://www.oneapm.com/ai/price.html)
+- [Sign up](https://user.oneapm.com/pages/v2/signup)
+- [Support](https://www.oneapm.com/others/onehelp.html)
+- [Blog](http://blog.oneapm.com/)
+- [Terms of service](https://www.oneapm.com/privacy_policy.html)
+- [GitHub](https://github.com/oneapm)
+
+## API Evangelist rating
+
+**Kin Score 18.3** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 32.1 |
+| Access clarity | 34.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/oneapm/](https://apis.io/providers/oneapm/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for OneAPM: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/oneapm/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
